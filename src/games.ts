@@ -3,6 +3,7 @@
 import colorir from './icons/colorir.svg?raw';
 import garagem from './icons/garagem.svg?raw';
 import garrafinhas from './icons/garrafinhas.svg?raw';
+import lenda from './icons/lenda.svg?raw';
 import letrinhas from './icons/letrinhas.svg?raw';
 import estilingue from './icons/estilingue.svg?raw';
 import patinhas from './icons/patinhas.svg?raw';
@@ -22,6 +23,7 @@ export const GAMES: readonly Game[] = [
   { key: 'letrinhas', name: 'Letrinhas', path: '/letrinhas-do-gustavo/', icon: letrinhas },
   { key: 'patinhas', name: 'Patinhas', path: '/patinhas-do-gustavo/', icon: patinhas },
   { key: 'estilingue', name: 'Estilingue', path: '/estilingue-do-gustavo/', icon: estilingue },
+  { key: 'lenda', name: 'Lenda', path: '/lenda-do-alfabeto/', icon: lenda },
 ];
 
 /**

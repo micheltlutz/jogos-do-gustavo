@@ -60,20 +60,20 @@ body {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* 6 em fila (deitado) ou 3 + 3 (em pé). */
+/* 4 + 3 (deitado) ou 3 + 3 + 1 (em pé). */
 .games {
-  --size: min(13.6vw, 36vh);
+  --size: min(17vw, 27vh);
   --gap: clamp(16px, 3vmin, 36px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--gap);
-  max-width: calc(var(--size) * 6 + var(--gap) * 5);
+  max-width: calc(var(--size) * 4 + var(--gap) * 3);
 }
 
 @media (orientation: portrait) {
   .games {
-    --size: min(27vw, 21vh);
+    --size: min(27vw, 17vh);
     max-width: calc(var(--size) * 3 + var(--gap) * 2);
   }
 }
@@ -118,6 +118,10 @@ body {
 
 .game:nth-child(6) .icon {
   animation-delay: -1.1s;
+}
+
+.game:nth-child(7) .icon {
+  animation-delay: -1.9s;
 }
 
 .icon svg {
