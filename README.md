@@ -11,6 +11,7 @@ Página com todos os jogos do Gustavo num lugar só, **sem propagandas, sem comp
 | Garrafinhas do Gustavo | https://micheltlutz.github.io/garrafinhas-do-gustavo/ |
 | Letrinhas do Gustavo | https://micheltlutz.github.io/letrinhas-do-gustavo/ |
 | Patinhas do Gustavo | https://micheltlutz.github.io/patinhas-do-gustavo/ |
+| Estilingue do Gustavo | https://micheltlutz.github.io/estilingue-do-gustavo/ |
 
 ## Instalar no iPad (um ícone só para todos os jogos)
 
