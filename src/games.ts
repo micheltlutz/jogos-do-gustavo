@@ -4,6 +4,7 @@ import colorir from './icons/colorir.svg?raw';
 import garagem from './icons/garagem.svg?raw';
 import garrafinhas from './icons/garrafinhas.svg?raw';
 import letrinhas from './icons/letrinhas.svg?raw';
+import patinhas from './icons/patinhas.svg?raw';
 
 export interface Game {
   readonly key: string;
@@ -18,6 +19,7 @@ export const GAMES: readonly Game[] = [
   { key: 'colorir', name: 'Colorir', path: '/colorir-do-gustavo/', icon: colorir },
   { key: 'garrafinhas', name: 'Garrafinhas', path: '/garrafinhas-do-gustavo/', icon: garrafinhas },
   { key: 'letrinhas', name: 'Letrinhas', path: '/letrinhas-do-gustavo/', icon: letrinhas },
+  { key: 'patinhas', name: 'Patinhas', path: '/patinhas-do-gustavo/', icon: patinhas },
 ];
 
 /**

@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { GAMES, iconSvg, linkTo } from '../src/games.ts';
 
 describe('jogos', () => {
-  it('são os 4 jogos, cada um no seu caminho', () => {
-    expect(GAMES.map((g) => g.key)).toEqual(['garagem', 'colorir', 'garrafinhas', 'letrinhas']);
+  it('são os 5 jogos, cada um no seu caminho', () => {
+    expect(GAMES.map((g) => g.key)).toEqual(['garagem', 'colorir', 'garrafinhas', 'letrinhas', 'patinhas']);
     for (const g of GAMES) {
       expect(g.path).toMatch(/^\/[a-z]+-do-gustavo\/$/);
       expect(linkTo(g)).toBe(`${g.path}#jogos`);

@@ -60,18 +60,21 @@ body {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* 4 em fila (deitado) ou 2 x 2 (em pé). */
+/* 5 em fila (deitado) ou 3 + 2 (em pé). */
 .games {
-  --size: min(21vw, 46vh);
-  display: grid;
-  grid-template-columns: repeat(4, var(--size));
-  gap: clamp(18px, 3.5vmin, 40px);
+  --size: min(16.5vw, 40vh);
+  --gap: clamp(16px, 3vmin, 36px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap);
+  max-width: calc(var(--size) * 5 + var(--gap) * 4);
 }
 
 @media (orientation: portrait) {
   .games {
-    --size: min(38vw, 30vh);
-    grid-template-columns: repeat(2, var(--size));
+    --size: min(27vw, 21vh);
+    max-width: calc(var(--size) * 3 + var(--gap) * 2);
   }
 }
 
@@ -107,6 +110,10 @@ body {
 
 .game:nth-child(4) .icon {
   animation-delay: -2.25s;
+}
+
+.game:nth-child(5) .icon {
+  animation-delay: -0.4s;
 }
 
 .icon svg {

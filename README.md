@@ -10,6 +10,7 @@ Página com todos os jogos do Gustavo num lugar só, **sem propagandas, sem comp
 | Colorir do Gustavo | https://micheltlutz.github.io/colorir-do-gustavo/ |
 | Garrafinhas do Gustavo | https://micheltlutz.github.io/garrafinhas-do-gustavo/ |
 | Letrinhas do Gustavo | https://micheltlutz.github.io/letrinhas-do-gustavo/ |
+| Patinhas do Gustavo | https://micheltlutz.github.io/patinhas-do-gustavo/ |
 
 ## Instalar no iPad (um ícone só para todos os jogos)
 
@@ -36,6 +37,6 @@ npm run icons           # gera os ícones PNG a partir de public/icon.svg
 
 - `src/games.ts`: a lista de jogos (nome, endereço e ícone).
 - `src/icons/`: os ícones dos jogos (cópias do `public/icon.svg` de cada um).
-- `public/icon.svg`: o ícone desta página (os quatro ícones num quadrado 2 x 2).
+- `public/icon.svg`: o ícone desta página (os quatro primeiros jogos num quadrado 2 x 2).
 
 Cada push na branch `main` roda os testes e publica no GitHub Pages.
