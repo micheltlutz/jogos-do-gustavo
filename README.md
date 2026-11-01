@@ -13,6 +13,7 @@ Página com todos os jogos do Gustavo num lugar só, **sem propagandas, sem comp
 | Patinhas do Gustavo | https://micheltlutz.github.io/patinhas-do-gustavo/ |
 | Estilingue do Gustavo | https://micheltlutz.github.io/estilingue-do-gustavo/ |
 | A Lenda do Alfabeto | https://micheltlutz.github.io/lenda-do-alfabeto/ |
+| Corrida do Gustavo | https://micheltlutz.github.io/corrida-do-gustavo/ |
 
 ## Instalar no iPad (um ícone só para todos os jogos)
 

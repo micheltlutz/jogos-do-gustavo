@@ -1,6 +1,7 @@
 // Os jogos do Gustavo (todos publicados em micheltlutz.github.io).
 
 import colorir from './icons/colorir.svg?raw';
+import corrida from './icons/corrida.svg?raw';
 import garagem from './icons/garagem.svg?raw';
 import garrafinhas from './icons/garrafinhas.svg?raw';
 import lenda from './icons/lenda.svg?raw';
@@ -24,6 +25,7 @@ export const GAMES: readonly Game[] = [
   { key: 'patinhas', name: 'Patinhas', path: '/patinhas-do-gustavo/', icon: patinhas },
   { key: 'estilingue', name: 'Estilingue', path: '/estilingue-do-gustavo/', icon: estilingue },
   { key: 'lenda', name: 'Lenda', path: '/lenda-do-alfabeto/', icon: lenda },
+  { key: 'corrida', name: 'Corrida', path: '/corrida-do-gustavo/', icon: corrida },
 ];
 
 /**

@@ -60,7 +60,7 @@ body {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* 4 + 3 (deitado) ou 3 + 3 + 1 (em pé). */
+/* 4 + 4 (deitado) ou 3 + 3 + 2 (em pé). */
 .games {
   --size: min(17vw, 27vh);
   --gap: clamp(16px, 3vmin, 36px);
@@ -122,6 +122,10 @@ body {
 
 .game:nth-child(7) .icon {
   animation-delay: -1.9s;
+}
+
+.game:nth-child(8) .icon {
+  animation-delay: -2.6s;
 }
 
 .icon svg {
