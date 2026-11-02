@@ -60,7 +60,7 @@ body {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* 5 + 4 (deitado) ou 3 + 3 + 3 (em pé). */
+/* 5 + 5 (deitado); em pé, até 4 por linha (fica 3 + 4 + 3 pelos nomes compridos). */
 .games {
   --size: min(15.5vw, 26vh);
   --gap: clamp(16px, 3vmin, 36px);
@@ -73,8 +73,8 @@ body {
 
 @media (orientation: portrait) {
   .games {
-    --size: min(27vw, 15.5vh);
-    max-width: calc(var(--size) * 3 + var(--gap) * 2);
+    --size: min(20vw, 14vh);
+    max-width: calc(var(--size) * 4 + var(--gap) * 3);
   }
 }
 
@@ -130,6 +130,10 @@ body {
 
 .game:nth-child(9) .icon {
   animation-delay: -0.2s;
+}
+
+.game:nth-child(10) .icon {
+  animation-delay: -1.4s;
 }
 
 .icon svg {

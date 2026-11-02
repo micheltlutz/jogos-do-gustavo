@@ -9,6 +9,7 @@ import mergulho from './icons/mergulho.svg?raw';
 import letrinhas from './icons/letrinhas.svg?raw';
 import estilingue from './icons/estilingue.svg?raw';
 import patinhas from './icons/patinhas.svg?raw';
+import superpets from './icons/superpets.svg?raw';
 
 export interface Game {
   readonly key: string;
@@ -28,6 +29,7 @@ export const GAMES: readonly Game[] = [
   { key: 'lenda', name: 'Lenda', path: '/lenda-do-alfabeto/', icon: lenda },
   { key: 'corrida', name: 'Corrida', path: '/corrida-do-gustavo/', icon: corrida },
   { key: 'mergulho', name: 'Mergulho', path: '/mergulho-do-gustavo/', icon: mergulho },
+  { key: 'superpets', name: 'Super Pets', path: '/super-pets-do-gustavo/', icon: superpets },
 ];
 
 /**
