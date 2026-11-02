@@ -5,6 +5,7 @@ import corrida from './icons/corrida.svg?raw';
 import garagem from './icons/garagem.svg?raw';
 import garrafinhas from './icons/garrafinhas.svg?raw';
 import lenda from './icons/lenda.svg?raw';
+import mergulho from './icons/mergulho.svg?raw';
 import letrinhas from './icons/letrinhas.svg?raw';
 import estilingue from './icons/estilingue.svg?raw';
 import patinhas from './icons/patinhas.svg?raw';
@@ -26,6 +27,7 @@ export const GAMES: readonly Game[] = [
   { key: 'estilingue', name: 'Estilingue', path: '/estilingue-do-gustavo/', icon: estilingue },
   { key: 'lenda', name: 'Lenda', path: '/lenda-do-alfabeto/', icon: lenda },
   { key: 'corrida', name: 'Corrida', path: '/corrida-do-gustavo/', icon: corrida },
+  { key: 'mergulho', name: 'Mergulho', path: '/mergulho-do-gustavo/', icon: mergulho },
 ];
 
 /**
